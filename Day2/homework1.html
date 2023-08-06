@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homework1.css">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" />
+</head>
+<body>
+    <div id="table-container" class="container">
+
+        <!-- Form -->
+        <table>
+            <!-- Item Management -->
+            <thead >
+                <tr>
+                    <td style="padding-left: 90px;" colspan="2" >
+                       <h1 >
+                           Item Management
+                        </h1>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <form action="">
+                    <!-- item code start -->
+                    <tr>
+                        <td>Item Code </td>
+                        <td>:<input type="text" id="inputItemCode" placeholder="Enter Item Code"></td>
+                    </tr>
+                        <!-- item code end -->
+                        <!-- item brand start -->
+                    <tr>
+                        <td><label for="inputBrand">
+        
+                            Brand:
+                        </label> </td>
+                        <td>
+                            :<select name="" id="selectBrand">
+                                <option value="" selected disabled >Select Brand</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- item brand end -->
+                    <!-- item category start -->
+                    <tr>
+                        <td><label for="selectCategory">Category</label> </td>
+                        <td>
+                            :<select name="" id="selectCategory">
+                                <option value="" selected disabled >Select Category</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- item category end -->
+                    <!-- item sub category start -->
+                    <tr>
+                        <td><label for="selectSubCategory">Sub Category</label> </td>
+                        <td>
+                            :<select name="" id="selectSubCategory">
+                                <option value="" selected disabled >Select Sub Category</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- item sub category end -->
+                    <!-- item name start -->
+                    <tr>
+                        <td><label for="inputItemName">Item Name</label> </td>
+                        <td>:<input type="text" id="inputItemName" placeholder="Enter Item Name"></td>
+                    </tr>
+                    <!-- item name end -->
+                    <tr>
+                        <td><label for="inputPurchasePrice">Purchase Price</label> </td>
+                        <td>:<input type="number" id="inputPurchaceName" placeholder="Enter Purchace Price"></td>
+                    </tr>
+                    <!-- item name end -->
+                    <!-- item sales price start -->
+                    <tr>
+                        <td><label for="inputSalesPrice">Sales Price</label> </td>
+                        <td>:<input type="number" id="inputSalesPrice" placeholder="Enter Sales Price"></td>
+                    </tr>
+                    <!-- item sales price end -->
+                    <!-- Item discount rate start -->
+                    <tr>
+                        <td><label for="inputDis">Discounted Ratio</label></td>
+                        <td>:
+                            <input type="radio" name="discount" id="inputDis"><label for="">0</label>
+                            <input type="radio" name="discount" id="inputDis"><label for="">5</label>
+                            <input type="radio" name="discount" id="inputDis"><label for="">10</label>
+                        </td>
+                    </tr>
+                    <!-- item discount rate end -->
+                    <!-- item note start -->
+                    <tr>
+                        <td><label for="inputNote">Note</label></td>
+                        <td>:<textarea name="" id="inputNote" cols="20" rows="2"></textarea></td>
+                    </tr>
+                    <!-- item note end -->
+                    <!-- item add date start-->
+                    <tr>
+                        <td><label for="inputDate">Added DAte</label></td>
+                        <td>:<input type="date" name="" id="inputDate"></td>
+                    </tr>
+                    <!-- item add date end -->
+                    <!-- item button start -->
+                    <tr>
+                        <td colspan="2">
+        
+                            <button id="btnClear">Clear</button>
+                            <button id="btnUpdate">Update</button>
+                            <button id="btnAdd">Add</button>
+                        </td>
+                    </tr>
+                    <!-- item button end -->
+                    <!-- <tr>
+                        <td>
+        
+                            <button>Clear</button>
+                            <button>Update</button>
+                            <button>Add</button>
+                        </td>
+                    </tr> -->
+                </form>
+    
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

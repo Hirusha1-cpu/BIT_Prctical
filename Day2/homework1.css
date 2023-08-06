@@ -1,0 +1,78 @@
+body{
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/10/2021/04/2048x1365-Strelitzia-reginae-GettyImages-1270647929-4f76714.jpg?quality=90&resize=940,627");
+    background-size: cover;
+    background-repeat: repeat;
+    padding: 100px;
+    padding-top: 50px;
+    
+}
+
+#table-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+table{
+    border: 3px solid black;
+    padding: 30px;
+    border-radius: 15px;
+    /* background-color: gray; */
+    background-color: rgba(133, 130, 130, 0.39);
+    opacity: 100%;
+    position: fixed;
+}
+
+
+input{
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border-color: blue;
+  width: 300px;
+  
+}
+input:hover{
+    padding-top: 15px;
+}
+
+label{
+    
+}
+
+select{
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border-color: blue;
+  width: 319px;
+}
+
+select:hover{
+    padding-top: 15px;
+}
+
+#inputDis{
+    padding: 2px;
+    width: 20px;
+}
+
+button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 15px;
+
+}
+button:hover{
+    padding: 15px;
+}
+
+#btnClear{
+    background-color: yellow;
+}
+#btnUpdate{
+    background-color: orange;
+}
+#btnAdd{
+    background-color: cyan;
+}
