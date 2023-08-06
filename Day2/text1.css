@@ -1,0 +1,16 @@
+#txtItemName1{
+    border-radius: 19px;
+    background-color: rgb(232, 31, 232);
+}
+#txtItemName1:hover{
+    border-radius: 19px;
+    background-color: rgb(199, 232, 31);
+}
+
+.txtClassItem{
+    border-radius: 20px;
+    background-color: black;
+}
+.txtClassItem:hover{
+    background-color: blue;
+}
