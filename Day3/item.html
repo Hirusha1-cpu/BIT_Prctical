@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Management</title>
+    <!-- link bs css -->
+    <link rel="stylesheet" href="./resourcesT/bootstrap_5.3.1//css/bootstrap.min.css">
+    <!-- link bs js file -->
+    <script src="resourcesT/bootstrap_5.3.1/js/bootstrap.bundle.min.js"></script>
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="./resourcesT/fontawesome_web/css/all.css">
+    <!-- icon -->
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" />
+    <!-- button css -->
+    <link rel="stylesheet" href="resourcesT/style/button.css">
+    <!-- common css -->
+    <link rel="stylesheet" href="resourcesT/style/common.css">
+    <!-- employee css -->
+    <link rel="stylesheet" href="resourcesT/style/employee.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- title start -->
+        <div class="row" style="height: 100px;">
+            <div class="col-12 text-center bg-primary">
+                <h2 class="mt-4"><i class="fa-solid fa-user "></i>Item Management </h2>
+
+            </div>
+        </div>
+        <!-- title end -->
+
+    </div>
+    <!-- Item form start -->
+
+    <div class=" container p-5 fw-bold ">
+        <div class="row main justify-content-md-center">
+            <div class="container mt-3 ">
+                <form action="">
+                    <!-- item code start -->
+                    <div class="row justify-content-md-center input-group-lg">
+
+                        <div class="col-md-auto" style="display: flex; flex-direction: row;">
+                            <label for="itemCode" class="fcol-sm-2 col-form-label fs-5 fw-bold">ItemCode:<span
+                                    class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="itemCode" placeholder="Item code..">
+
+                        </div>
+
+                    </div>
+                    <!-- item code end -->
+                    <!-- brand, category, subcategory start -->
+                    <div class="row">
+
+                        <!-- brand start -->
+                        <div class="col">
+
+
+                            <label for="inputBrand" class="col-sm-2 col-form-label fs-5 fw-bold">Brand</label>
+                            <select class="form-select form-select-lg" aria-label="Default select example">
+                                <option selected>Select Brand</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+
+
+                        </div>
+                        <!-- brand end -->
+                        <!-- category start -->
+                        <div class="col">
+                            <label for="inputCategory" class="col-sm-2 col-form-label fs-5 fw-bold">Category</label>
+                            <select class="form-select form-select-lg" aria-label="Default select example">
+                                <option selected>Select Category</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+
+                        </div>
+                        <!-- category end -->
+                        <!-- subcategory start -->
+                        <div class="col">
+                            <label for="inputSubCategory"
+                                class="col-sm-2 col-form-label fs-5 fw-bold">SubCategory</label>
+                            <select class="form-select form-select-lg" aria-label="Default select example">
+                                <option selected>Select Sub Category</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+
+                        </div>
+                        <!-- sub category end -->
+                    </div>
+                    <!-- brand, category, subcategory start -->
+                    <!-- unit ,item name-->
+                    <div class="row mt-3">
+                        <div class="col">
+                            <label for="itemCode" class="col-sm-2 col-form-label fs-5 fw-bold">Unit:<span
+                                    class="text-danger">*</span></label>
+                            <div class="row">
+
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" id="itemCode" placeholder="unit size..">
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                        <option selected>Unit Type</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <!-- item name start -->
+                        <div class="col input-group-lg">
+                            <label for="itemName" class="fcol-sm-2 col-form-label fs-5 fw-bold">ItemName:<span
+                                    class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="itemName" placeholder="Item name..">
+
+                        </div>
+                        <!-- item name end -->
+                    </div>
+                    <!-- unit ,item name end-->
+                    <!-- purchace price and sales price start -->
+                    <div class="row ">
+                        <!-- purchase start -->
+                        <div class="col input-group ">
+                            <label for="itemName" class="fcol-sm-2 col-form-label fs-5 fw-bold">Purchase:<span
+                                    class="text-danger">*</span></label>
+                            <div class="input-group input-group-lg mb-3">
+                                <span class="input-group-text">Rs.</span>
+                                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                <span class="input-group-text">.00</span>
+                            </div>
+
+                        </div>
+
+                        <!-- purchase end -->
+
+                        <!-- sales price start -->
+
+                        <div class="col input-group ">
+                            <label for="itemName" class="fcol-sm-2 col-form-label fs-5 fw-bold">Sales:<span
+                                    class="text-danger">*</span></label>
+                            <div class="input-group input-group-lg mb-3">
+                                <span class="input-group-text">Rs.</span>
+                                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                <span class="input-group-text">.00</span>
+                            </div>
+
+                        </div>
+
+                        <!-- sales price END -->
+                    </div>
+                    <!-- purchace price and sales price end -->
+                    <!-- floating labels start -->
+                    <div class="row">
+                        <!-- reorder label print start -->
+                        <div class="col">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Reorder print">
+                                <label for="floatingInput">Reorder print</label>
+                            </div>
+                        </div>
+                        <!-- reorder label print end -->
+                        <!-- reorder label qty -->
+                        <div class="col">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Reorder qty">
+                                <label for="floatingInput">Reorder qty</label>
+                            </div>
+
+                        </div>
+                        <!-- reorder label qty -->
+                    </div>
+                    <!-- floating labels end-->
+                    <!-- note start -->
+
+                    <div class="row justify-content-md-center input-group-lg">
+
+                        <div class="col-md-auto">
+
+                            <div class=" input-group input-group-lg ">
+                                <span class="input-group-text">Notes</span>
+                                <textarea class="form-control" aria-label="Notes"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- note end -->
+                    <!-- buttons start -->
+
+                    <div class="row justify-content-md-center input-group-lg mt-3">
+                        <div class="col-md-auto">
+
+                            <div class="input-group input-group-lg " style="display: flex;gap: 10px;">
+                                <button type="button" class="btn btn-danger">Clear</button>
+                                <button type="button" class="btn btn-warning">Update</button>
+                                <button type="button" class="btn btn-success">Add</button>
+    
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- buttons end -->
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- item form end -->
+</body>
+
+</html>

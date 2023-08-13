@@ -35,204 +35,217 @@
         </div>
 
     </div>
-    <!-- item form -->
-    <div class="p-5 fw-bold">
+    <!-- emp form -->
+    <form action="">
+        
+        <div class="p-5 fw-bold">
+    
+            <div class="row main justify-content-md-center " >
+                <!-- style="margin-top: 10px;width: 1200px; margin-left: 200px;" -->
+                <div class="container mt-3 ">
+                    <!-- Required field -->
+                    <div class="row" style="margin-left: 1050px;">
+        
+                        <div>
+                            <b>
+                                <p class="fw-bold fs-5 fw-bold">
+        
+                                    * Required
+                                </p>
+                            </b>
+                        </div>
+                    </div>
+                    <!-- Required field end -->
+                    <!-- full name start -->
+                    <div class="row">
+                        <div class="mb-3 row mt-3 " style="height: 40px;">
+                            <label for="inputFullName" class="col-lg-2 col-form-label fs-5 fw-bold">Full Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control form-control-lg " placeholder="Enter Full Name"
+                                    id="inputFullName">
+                            </div>
+                        </div>
+        
+        
+                    </div>
+                    <!-- fullname end -->
+                    <div class="row">
+                        <!-- calling name start -->
+                        <div class="col">
+                            <label for="inputCallingName" class="col-sm-2 col-form-label fs-5 fw-bold">CallingName</label>
+                            <div class="col-lg-10">
+                                <input placeholder="Enter Calling Name" type="text" class="form-control form-control-lg"
+                                    id="inputFullName" list="dtaList">
+                            </div>
+                           <datalist id="dtaList">
+                            <option value="Hirusha">
+                            <option value="Achintha">
+                            <option value="Fernando">
 
-        <div class="row main justify-content-md-center " >
-            <!-- style="margin-top: 10px;width: 1200px; margin-left: 200px;" -->
-            <div class="container mt-3 ">
-                <!-- Required field -->
-                <div class="row" style="margin-left: 1050px;">
-    
-                    <div>
-                        <b>
-                            <p class="fw-bold fs-5 fw-bold">
-    
-                                * Required
-                            </p>
-                        </b>
-                    </div>
-                </div>
-                <!-- Required field end -->
-                <!-- full name start -->
-                <div class="row">
-                    <div class="mb-3 row mt-3 " style="height: 40px;">
-                        <label for="inputFullName" class="col-lg-2 col-form-label fs-5 fw-bold">Full Name</label>
-                        <div class="col-lg-10">
-                            <input type="text" class="form-control form-control-lg " placeholder="Enter Full Name"
-                                id="inputFullName">
+                           </datalist>
+
                         </div>
-                    </div>
-    
-    
-                </div>
-                <!-- fullname end -->
-                <div class="row">
-                    <!-- calling name start -->
-                    <div class="col">
-                        <label for="inputCallingName" class="col-sm-2 col-form-label fs-5 fw-bold">CallingName</label>
-                        <div class="col-lg-10">
-                            <input placeholder="Enter Calling Name" type="text" class="form-control form-control-lg"
-                                id="inputFullName">
-                        </div>
-                    </div>
-                    <!-- calling name end -->
-                    <!-- nic start -->
-                    <div class="col">
-                        <label for="inputNIC" class="col-sm-2 col-form-label fs-5 fw-bold">NIC</label>
-                        <div class="col-lg-10">
-                            <input placeholder="Enter NIC" type="text" class="form-control form-control-lg" id="inputNIC">
-                        </div>
-                    </div>
-                    <!-- nic end -->
-                    <!-- gender start -->
-                    <div class="col">
-                        <label for="inputCallingName" class="col-sm-2 col-form-label fs-5 fw-bold">Gender</label>
-                        <div class="row" style="display: flex; flex-direction: row;">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioGender" id="flexRadioMale">
-                                <label class="form-check-label fs-5 fw-bold" for="flexRadioMale">
-                                    male
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioGender" id="flexRadioFemale"
-                                    checked>
-                                <label class="form-check-label fs-5 fw-bold" for="flexRadioFeMale">
-                                    female
-                                </label>
+                        <!-- calling name end -->
+                        <!-- nic start -->
+                        <div class="col">
+                            <label for="inputNIC" class="col-sm-2 col-form-label fs-5 fw-bold">NIC</label>
+                            <div class="col-lg-10">
+                                <input placeholder="Enter NIC" type="text" class="form-control form-control-lg" id="inputNIC">
                             </div>
                         </div>
-    
-                    </div>
-                    <!-- gender end -->
-                    <!-- dob start -->
-                    <div class="col">
-                        <label for="inputCallingName" class="col-sm-2 col-form-label fs-5 fw-bold">
-                            DOB<span style="color: red;">*</span>
-    
-                        </label>
-                        <div class="col-lg-10">
-                            <input type="date" class="form-control form-control-lg" id="inputFullName">
+                        <!-- nic end -->
+                        <!-- gender start -->
+                        <div class="col">
+                            <div class="row">
+
+                                <label for="inputCallingName" class="col-sm-2 col-form-label fs-5 fw-bold">Gender</label>
+                            </div>
+                            <!-- <div class="row" > -->
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="flexRadioGender" id="flexRadioMale">
+                                    <label class="form-check-label fs-5 fw-bold" for="flexRadioMale">
+                                        male
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="flexRadioGender" id="flexRadioFemale"
+                                        checked>
+                                    <label class="form-check-label fs-5 fw-bold" for="flexRadioFeMale">
+                                        female
+                                    </label>
+                                </div>
+                            <!-- </div> -->
+        
                         </div>
-    
+                        <!-- gender end -->
+                        <!-- dob start -->
+                        <div class="col">
+                            <label for="inputCallingName" class="col-sm-2 col-form-label fs-5 fw-bold">
+                                DOB<span style="color: red;">*</span>
+        
+                            </label>
+                            <div class="col-lg-10">
+                                <input type="date" class="form-control form-control-lg" id="inputFullName">
+                            </div>
+        
+                        </div>
+                        <!-- dob end -->
+        
                     </div>
-                    <!-- dob end -->
-    
+                    <div class="row">
+                        <!-- mobile no start -->
+                        <div class="col">
+                            <label for="inputMobNo" class="col-sm-2 col-form-label fs-5 fw-bold">Mobile</label>
+                            <div class="col-lg-10">
+                                <input placeholder="Enter Mobile No" type="text" class="form-control form-control-lg"
+                                    id="inputMobNo">
+                            </div>
+                        </div>
+                        <!-- mobile no end -->
+                        <!-- land no start -->
+                        <div class="col">
+                            <label for="inputLandNo" class="col-sm-2 col-form-label fs-5 fw-bold">LandNo</label>
+                            <!-- <div class="col-lg-10">
+                                <input placeholder="Enter Land No" type="text" class="form-control form-control-lg" id="inputLandNo">
+                            </div> -->
+                            <div class="input-group mb-3 input-group-lg ">
+                                <span class="input-group-text" id="basic-addon1"><i
+                                        class="fa-sharp fa-solid fa-phone-volume"></i></span>
+                                <input type="text" class="form-control" placeholder="Enter Land No" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                            </div>
+        
+                        </div>
+                        <!-- land no end -->
+                        <!-- email start -->
+                        <div class="col ">
+                            <label for="inputEmail" class="col-sm-2 col-form-label fs-5 fw-bold">Email<span
+                                    class="text-danger">(Optional)</span>
+                            </label>
+                            <div class="col-lg-10">
+                                <input placeholder="Enter Email" type="email" class="form-control form-control-lg"
+                                    id="inputEmail">
+                            </div>
+                        </div>
+                        <!-- email end -->
+                    </div>
+                    <div class="row ">
+                        <!-- address start -->
+                        <div class="col">
+        
+                            <div class="input-group">
+                                <span class="input-group-text fs-5 fw-bold">Adress</span>
+                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                            </div>
+                        </div>
+        
+                        <!-- address end -->
+                        <!-- note start -->
+                        <div class="col ">
+        
+                            <div class="input-group">
+                                <span class="input-group-text fs-5 fw-bold">Note:<span class="text-danger">(Optional)</span></span>
+                                <textarea class="form-control" aria-label="With textarea">
+                                 
+                                </textarea>
+                            </div>
+                        </div>
+        
+                        <!-- note end -->
+                    </div>
+                    <div class="row">
+                        <!-- designation start -->
+                        <div class="col">
+                            <label for="inputDesignation" class="col-sm-2 col-form-label fs-5 fw-bold">Designation</label>
+                            <select class="form-select form-select-lg" aria-label="Default select example">
+                                <option selected>Select Designation</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                        </div>
+                        <!-- designation end -->
+                        <!-- civil status start -->
+                        <div class="col">
+                            <label for="inputCivilStatus" class="col-sm-2 col-form-label fs-5 fw-bold">Civil</label>
+                            <select class="form-select form-select-lg" aria-label="Default select example">
+                                <option selected>Select Civil Status</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                        </div>
+                        <!-- civil status end -->
+                        <!-- emp status start -->
+                        <div class="col">
+                            <label for="inputDesignation" class="col-sm-2 col-form-label fs-5 fw-bold">EmpStatus</label>
+                            <select class="form-select form-select-lg" aria-label="Default select example">
+                                <option selected>Select Employee Status</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                        </div>
+                        <!-- emp status end -->
+                    </div>
+                    <!-- button group start -->
+                    <div class="row mt-4 mb-3" style="display: flex;justify-content: space-between;">
+                        <div class="col">
+                            <button type="button" class="btn btn-lg btn-info"><i class="fa-solid fa-broom"></i>Clear</button>
+                        </div>
+                        <div class="col" style= "display: flex; justify-content: flex-end;gap:10px">
+                            <button type="button" class="btn btn-lg btn-warning" style="border-radius: 30px;" ><i class="fa-solid fa-pen-to-square"></i>Update</button>
+                            <button type="button" class="btn btn-lg btn-success" style="border-radius: 30px;"><i class="fa-solid fa-plus"></i>Add</button>
+                        </div>
+                    </div>
+                    <!-- button group end -->
+        
+        
+        
                 </div>
-                <div class="row">
-                    <!-- mobile no start -->
-                    <div class="col">
-                        <label for="inputMobNo" class="col-sm-2 col-form-label fs-5 fw-bold">Mobile</label>
-                        <div class="col-lg-10">
-                            <input placeholder="Enter Mobile No" type="text" class="form-control form-control-lg"
-                                id="inputMobNo">
-                        </div>
-                    </div>
-                    <!-- mobile no end -->
-                    <!-- land no start -->
-                    <div class="col">
-                        <label for="inputLandNo" class="col-sm-2 col-form-label fs-5 fw-bold">LandNo</label>
-                        <!-- <div class="col-lg-10">
-                            <input placeholder="Enter Land No" type="text" class="form-control form-control-lg" id="inputLandNo">
-                        </div> -->
-                        <div class="input-group mb-3 input-group-lg ">
-                            <span class="input-group-text" id="basic-addon1"><i
-                                    class="fa-sharp fa-solid fa-phone-volume"></i></span>
-                            <input type="text" class="form-control" placeholder="Enter Land No" aria-label="Username"
-                                aria-describedby="basic-addon1">
-                        </div>
-    
-                    </div>
-                    <!-- land no end -->
-                    <!-- email start -->
-                    <div class="col ">
-                        <label for="inputEmail" class="col-sm-2 col-form-label fs-5 fw-bold">Email<span
-                                class="text-danger">(Optional)</span>
-                        </label>
-                        <div class="col-lg-10">
-                            <input placeholder="Enter Email" type="email" class="form-control form-control-lg"
-                                id="inputEmail">
-                        </div>
-                    </div>
-                    <!-- email end -->
-                </div>
-                <div class="row ">
-                    <!-- address start -->
-                    <div class="col">
-    
-                        <div class="input-group">
-                            <span class="input-group-text fs-5 fw-bold">Adress</span>
-                            <textarea class="form-control" aria-label="With textarea"></textarea>
-                        </div>
-                    </div>
-    
-                    <!-- address end -->
-                    <!-- note start -->
-                    <div class="col ">
-    
-                        <div class="input-group">
-                            <span class="input-group-text fs-5 fw-bold">Note:<span class="text-danger">(Optional)</span></span>
-                            <textarea class="form-control" aria-label="With textarea">
-                             
-                            </textarea>
-                        </div>
-                    </div>
-    
-                    <!-- note end -->
-                </div>
-                <div class="row">
-                    <!-- designation start -->
-                    <div class="col">
-                        <label for="inputDesignation" class="col-sm-2 col-form-label fs-5 fw-bold">Designation</label>
-                        <select class="form-select form-select-lg" aria-label="Default select example">
-                            <option selected>Select Designation</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                    </div>
-                    <!-- designation end -->
-                    <!-- civil status start -->
-                    <div class="col">
-                        <label for="inputCivilStatus" class="col-sm-2 col-form-label fs-5 fw-bold">Civil</label>
-                        <select class="form-select form-select-lg" aria-label="Default select example">
-                            <option selected>Select Civil Status</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                    </div>
-                    <!-- civil status end -->
-                    <!-- emp status start -->
-                    <div class="col">
-                        <label for="inputDesignation" class="col-sm-2 col-form-label fs-5 fw-bold">EmpStatus</label>
-                        <select class="form-select form-select-lg" aria-label="Default select example">
-                            <option selected>Select Employee Status</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                    </div>
-                    <!-- emp status end -->
-                </div>
-                <!-- button group start -->
-                <div class="row mt-4 mb-3" style="display: flex;justify-content: space-between;">
-                    <div class="col">
-                        <button type="button" class="btn btn-lg btn-info"><i class="fa-solid fa-broom"></i>Clear</button>
-                    </div>
-                    <div class="col" style= "display: flex; justify-content: flex-end;gap:10px">
-                        <button type="button" class="btn btn-lg btn-warning" style="border-radius: 30px;" ><i class="fa-solid fa-pen-to-square"></i>Update</button>
-                        <button type="button" class="btn btn-lg btn-success" style="border-radius: 30px;"><i class="fa-solid fa-plus"></i>Add</button>
-                    </div>
-                </div>
-                <!-- button group end -->
-    
-    
-    
             </div>
         </div>
-    </div>
+    </form>
 
 
 
