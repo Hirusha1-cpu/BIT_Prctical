@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Item Management</title>
-    <!-- link bs css -->
-    <link rel="stylesheet" href="./resourcesT/bootstrap_5.3.1//css/bootstrap.min.css">
-    <!-- link bs js file -->
-    <script src="resourcesT/bootstrap_5.3.1/js/bootstrap.bundle.min.js"></script>
-    <!-- link fontawesome -->
-    <link rel="stylesheet" href="./resourcesT/fontawesome_web/css/all.css">
-    <!-- icon -->
-    <link rel="icon" href="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" />
-    <!-- button css -->
-    <link rel="stylesheet" href="resourcesT/style/button.css">
-    <!-- common css -->
-    <link rel="stylesheet" href="resourcesT/style/common.css">
-    <!-- employee css -->
-    <link rel="stylesheet" href="resourcesT/style/employee.css">
+     <!-- link bs css -->
+     <link rel="stylesheet" href="./resourcesT/bootstrap_5.3.1//css/bootstrap.min.css">
+     <!-- link bs js file -->
+     <script src="resourcesT/bootstrap_5.3.1/js/bootstrap.bundle.min.js"></script>
+     <!-- link fontawesome -->
+     <link rel="stylesheet" href="./resourcesT/fontawesome_web/css/all.css">
+     <!-- icon -->
+     <link rel="icon" href="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" />
+     <!-- button css -->
+     <link rel="stylesheet" href="resourcesT/style/button.css">
+     <!-- common css -->
+     <link rel="stylesheet" href="resourcesT/style/common.css">
+     <!-- employee css -->
+     <link rel="stylesheet" href="resourcesT/style/employee.css">
 
 </head>
 
@@ -36,8 +36,8 @@
     </div>
     <!-- Item form start -->
 
-    <div class=" container p-5 fw-bold ">
-        <div class="row main justify-content-md-center">
+    <div class=" container p-5 fw-bold " style="display: flex;justify-content: center;">
+        <div class="col-6 row main justify-content-md-center" >
             <div class="container mt-3 ">
                 <form action="">
                     <!-- item code start -->
@@ -46,7 +46,7 @@
                         <div class="col-md-auto" style="display: flex; flex-direction: row;">
                             <label for="itemCode" class="fcol-sm-2 col-form-label fs-5 fw-bold">ItemCode:<span
                                     class="text-danger">*</span></label>
-                            <input type="email" class="form-control" id="itemCode" placeholder="Item code..">
+                            <input type="email" class="form-control" id="itemCode" placeholder="Item code.." required>
 
                         </div>
 
@@ -203,9 +203,9 @@
                         <div class="col-md-auto">
 
                             <div class="input-group input-group-lg " style="display: flex;gap: 10px;">
-                                <button type="button" class="btn btn-danger">Clear</button>
-                                <button type="button" class="btn btn-warning">Update</button>
-                                <button type="button" class="btn btn-success">Add</button>
+                                <button type="submit" class="btn btn-outline-danger">Clear</button>
+                                <button type="submit" class="btn btn-outline-warning">Update</button>
+                                <button type="submit" class="btn btn-outline-success">Add</button>
     
                             </div>
                         </div>
